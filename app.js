@@ -9,18 +9,33 @@ const pp = 30
 // global scope 
 
 if(aa===20){
- console.log('global scope var::',a);
+//  console.log('global scope var::',a);
  let name = 'mim';
- console.log('block scope var::',name);
+//  console.log('block scope var::',name);
 }
 
 //  console.log('block scope var 2 check::',name); it is not working for block scope
 
 
 // about let variable 
- /*
- 1. reused the double name 
- 2. connot use value outside the block sccope 
- 3. value is changable by using let constrant 
- 
- */
+    /*
+            1. reused the double name 
+            2. connot use value outside the block sccope 
+            3. value is changable by using let constrant 
+
+    */
+
+
+// hoisting in js 
+
+personalname = 'golam hakkani mim';
+var personalname;
+
+// console.log('hoisting :: ',personalname)
+ // it is perfectly ok when using variable 
+
+
+anotherName = kibria ;
+let anotherName;
+
+// console.log('ishosted',anotherName); // it is not working in hoisted becauese of using let ,, 
