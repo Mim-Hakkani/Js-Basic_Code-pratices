@@ -15,3 +15,12 @@ if(aa===20){
 }
 
 //  console.log('block scope var 2 check::',name); it is not working for block scope
+
+
+// about let variable 
+ /*
+ 1. reused the double name 
+ 2. connot use value outside the block sccope 
+ 3. value is changable by using let constrant 
+ 
+ */
