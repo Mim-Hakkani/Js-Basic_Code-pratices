@@ -44,18 +44,18 @@ var personalname;
 // wellocome to the const world 
 
 const price = [10,25,64,85,687];
-console.log(price);
+// console.log(price);
 price.push(155);
 
-console.log(price);
+// console.log(price);
 
 price.pop();
-console.log(price);
+// console.log(price);
 
 
 //arithmetic operator + - * / % ++ -- 
 
-let a =5;
+let aamas =5;
 let b = 6;
 let z = a+b; // addition , substraction , multiplication , division , percent 
 
@@ -64,21 +64,45 @@ let z = a+b; // addition , substraction , multiplication , division , percent
 
 a ===5 ;
 if(a<=b) {
-    console.log(true);
+    // console.log(true);
 }
 else 
 {
-    console.log(false );
+    // console.log(false );
 }
 
 
 //logical operator is here &&, || , !
 
 if(a&&b){
-    console.log('this is the and operator ');
+    // console.log('this is the and operator ');
 }
 
 // to check type we can use instance , and type of operator 
 
  const pps = typeof (a);
- console.log(pps);
+//  console.log(pps);
+
+
+ // function in javaScript 
+
+ function hakkani(){
+    let num1 = 50;
+    let num2 = 100;
+    return num1+num2;
+ }
+
+//  console.log(hakkani());
+
+
+ function summation( nn1,nn2 = 'mim'){
+    // console.log(nn1,nn2);
+    let sum = nn1+nn2;
+    return sum;
+ 
+ }
+
+ const total = summation(5);
+
+//    console.log(total);
+
