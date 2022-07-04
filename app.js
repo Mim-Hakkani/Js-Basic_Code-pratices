@@ -35,7 +35,27 @@ var personalname;
  // it is perfectly ok when using variable 
 
 
-anotherName = kibria ;
-let anotherName;
+// anotherName = kibria ;
+// let anotherName;
 
 // console.log('ishosted',anotherName); // it is not working in hoisted becauese of using let ,, 
+
+
+// wellocome to the const world 
+
+const price = [10,25,64,85,687];
+console.log(price);
+price.push(155);
+
+console.log(price);
+
+price.pop();
+console.log(price);
+
+
+//arithmetic operator + - * / % ++ -- 
+
+let a =5;
+let b = 6;
+let z = a+b; // addition , substraction , multiplication , division , percent 
+
