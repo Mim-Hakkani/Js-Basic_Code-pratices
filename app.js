@@ -59,3 +59,14 @@ let a =5;
 let b = 6;
 let z = a+b; // addition , substraction , multiplication , division , percent 
 
+
+// assign operator is js  = == === >= <= > < ! != ^= >>= >>>= <<= <<<= 
+
+a ===5 ;
+if(a<=b) {
+    console.log(true);
+}
+else 
+{
+    console.log(false );
+}
