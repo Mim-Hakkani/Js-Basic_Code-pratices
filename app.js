@@ -70,3 +70,15 @@ else
 {
     console.log(false );
 }
+
+
+//logical operator is here &&, || , !
+
+if(a&&b){
+    console.log('this is the and operator ');
+}
+
+// to check type we can use instance , and type of operator 
+
+ const pps = typeof (a);
+ console.log(pps);
