@@ -106,3 +106,23 @@ if(a&&b){
 
 //    console.log(total);
 
+
+//wellcome to the javaScript Object 
+
+const cars = {
+    name :'toyota',
+    weight:'500kg',
+    color:'white',
+    price:1452545,
+    start:function (){
+        console.log('cholo na gure ase ojanateee,,,');
+    },
+
+    drive:function(){
+        console.log('apni ki drive paren vaiii ,, ami to pari na geee');
+    }
+}
+
+console.log(cars.name);
+console.log(cars['weight']);
+cars.start();
