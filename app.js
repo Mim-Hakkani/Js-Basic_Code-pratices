@@ -115,14 +115,61 @@ const cars = {
     color:'white',
     price:1452545,
     start:function (){
-        console.log('cholo na gure ase ojanateee,,,');
+        //use use the parenet property in same function 
+        // console.log('The Car name is from function:',this.name +' '+ this.color);
+        // console.log('cholo na gure ase ojanateee,,,');
     },
 
     drive:function(){
-        console.log('apni ki drive paren vaiii ,, ami to pari na geee');
+        // console.log('apni ki drive paren vaiii ,, ami to pari na geee');
     }
 }
 
-console.log(cars.name);
-console.log(cars['weight']);
-cars.start();
+// console.log(cars.name);
+// console.log(cars['weight']);
+// cars.start();
+
+
+/* Complete the objects function in js up to the center  */
+
+
+// event lister in javascript 
+
+function demo(){
+   // console.log('golam hakkani mim');
+}
+
+
+// string method 
+
+ let s_name = "cocakola,banana,cocunut|";
+
+ //.log(s_name.slice(0,9)); // slice the data 
+
+ //console.log(s_name.toUpperCase()); // show the uppercase letter 
+
+ const replace = s_name.replace("col","pok");
+//  console.log(replace);
+
+
+ // split in string 
+
+ const letters = "amade desher nam bangladesh"
+//  console.log(letters.split(" "));
+
+
+ // js string search options 
+
+ const stringSearch = 'this is the ehsan marketing that i have seen good marketing site ' 
+
+//  console.log(stringSearch.indexOf("marketing"));
+//  console.log(stringSearch.indexOf("good",25)); 2nd parameter start the position of search 
+
+// laseIndexOf is the reverse of the first index 
+//  console.log(stringSearch.lastIndexOf("seen")); 
+
+
+
+
+
+
