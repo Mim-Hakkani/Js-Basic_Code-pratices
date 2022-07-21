@@ -160,13 +160,37 @@ function demo(){
 
  // js string search options 
 
- const stringSearch = 'this is the ehsan marketing that i have seen good marketing site ' 
+ const stringSearch = 'this is the ehsan marketing1 that i have seen good marketing2 site ' 
 
 //  console.log(stringSearch.indexOf("marketing"));
 //  console.log(stringSearch.indexOf("good",25)); 2nd parameter start the position of search 
 
 // laseIndexOf is the reverse of the first index 
 //  console.log(stringSearch.lastIndexOf("seen")); 
+
+
+// search 
+//    it is not used the 2nd parameter 
+
+// console.log('the lastindex of ::',stringSearch.search('marketing'));
+
+
+// match in search 
+    // const match = stringSearch.match(/marketing/g);
+    // console.log('thsis is the string match function ::',match);
+
+
+// console.log(stringSearch.includes('marketings'));
+
+// Note: another search function is also added that is : 
+
+        // startsWith('string')
+        // startsWith('string','parameter')
+
+        // endsWith('string')
+        // endsWith('string',parameter )
+
+ 
 
 
 
