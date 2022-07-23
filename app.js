@@ -214,16 +214,25 @@ let salary =20000;
 //   console.log((as+bs));
 
 
-const ps = 10;
-const qs = 12
-const nn = "10";
-console.log(ps+qs+nn);   
-console.log(nn+ps+qs);  
+// const ps = 10;
+// const qs = 12
+// const nn = "10";
+// console.log(ps+qs+nn);   
+// console.log(nn+ps+qs);  
 
 // js code exexute in left to right  and first prioty is string when plus 
 
 // Note number + string  = string 
 
+
+
+// js Numberic string 
+//    if the property is number inside of string like as "100" without plus operator it reads it as a number 
+
+//   let ns = "100";
+//   let ns1 = "10";
+
+//   console.log(ns/ns1);
 
 
 
