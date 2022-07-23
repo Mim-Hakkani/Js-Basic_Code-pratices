@@ -190,7 +190,39 @@ function demo(){
         // endsWith('string')
         // endsWith('string',parameter )
 
+
+
+// string template leterals 
+
+const company_name = `ehsan marketing `;
+let salary =20000;
+
+// console.log(`amader company name is ${company_name} and my salary is ${salary}`);
+
  
+
+ // Nunbers in js 
+
+//  Note : int number have 15 presission
+//         floating number have 17 pression 
+        
+    
+// Summation : 
+
+//   let as = 555;
+//   let bs = 1;
+//   console.log((as+bs));
+
+
+const ps = 10;
+const qs = 12
+const nn = "10";
+console.log(ps+qs+nn);   
+console.log(nn+ps+qs);  
+
+// js code exexute in left to right  and first prioty is string when plus 
+
+// Note number + string  = string 
 
 
 
