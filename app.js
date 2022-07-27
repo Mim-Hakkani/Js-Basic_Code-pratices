@@ -260,3 +260,37 @@ let salary =20000;
     // let vnum = 150
     // console.log(typeof vnum.valueOf());
 
+
+    // Number method part 2 
+
+        // parseFloat() = convets a string into float number ,, only 
+        // parseInt()
+        // Number()
+
+    //   example   Number : 
+
+        // Number(true);  1
+        // Number(false);  1
+        // Number("10"); 10
+        // Number("  10"); 10
+        // Number("10  "); 10
+        // Number(" 10  "); 10
+        // Number("10.33"); 10.33
+        // Number("10,33"); nan
+        // Number("10 33"); nan
+        // Number("John");  nan 
+    
+        // parseInt example :
+        //  parseInt("-10");
+        // parseInt("-10.33");
+        // parseInt("10");
+        // parseInt("10.33");
+        // parseInt("10 20 30");
+        // parseInt("10 years");
+        // parseInt("years 10");
+
+// parseFloat("10"); 10.00
+// parseFloat("10.33"); 10.33
+// parseFloat("10 20 30"); 10
+// parseFloat("10 years"); 10 
+// parseFloat("years 10"); nan
