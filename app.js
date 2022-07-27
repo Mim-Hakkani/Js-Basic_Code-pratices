@@ -294,3 +294,41 @@ let salary =20000;
 // parseFloat("10 20 30"); 10
 // parseFloat("10 years"); 10 
 // parseFloat("years 10"); nan
+
+
+/* Array methad and properties  */
+
+// declare : 
+let arr = [1,2,3,4,5];
+// console.log(arr);
+
+// check length : arr.length 
+
+// see the value using loop 
+
+    // for(i=0;i<arr.length;i++){
+    // console.log(arr[i]);
+    // }
+
+
+// see the array value using foreach loop 
+
+    // function checkValue(value){
+    //     console.log(value+'mim');
+    // }
+
+    // arr.forEach(checkValue)
+
+
+ // array check 
+
+//  step 1 : 
+//         let checkarr = Array.isArray(arr);
+//         console.log(checkarr);
+
+// step 2 : 
+
+//   let check2 = arr instanceof Array;
+//   console.log(check2);
+
+
