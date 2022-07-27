@@ -332,3 +332,54 @@ let arr = [1,2,3,4,5];
 //   console.log(check2);
 
 
+
+// Array Method in javaScripts 
+
+// 1. toString  => see all array value separated by comma 
+// 2. join  => see all array value separated by ja dibo tai
+// 3. push  => add an element in last index
+// 4. pop  =>  remove last index
+// 5. shift  => remove first index
+// 6. unshift  => add first index
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// let farr = fruits.toString();
+// console.log(farr);
+
+// Merging (Concatenating) 2 Arrays
+
+// const fruites2 = ["pieanaple","guava"]
+
+// let merge2array = fruits.concat(fruites2);
+// console.log(merge2array);
+
+// Merging or concating 3 Arrays 
+
+// const fruits3 =["Kismis"];
+
+// let allfruits =  fruits3.concat(fruites2,fruits)
+// console.log('concat all array is ::',allfruits);
+
+
+// Add elements in array in another way 
+
+//  const arrslice =fruits.splice(2,"badena","kolma") ;
+
+//  console.log(fruits.splice(0,5,"Lemon", "Kiwi"));
+
+
+// const fruitss = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// const citrus = fruitss.slice(2);
+// console.log(citrus);
+
+const data = ['a','b','c']
+console.log(data);
+
+ data.splice(1,0,'e','f');
+console.log(data);
+
+
+data.slice(2);
+console.log(data);
