@@ -236,5 +236,27 @@ let salary =20000;
 
 
 
+// Number method in js 
 
+// toString = converts a number to string 
+
+    //  let n = 123
+    //  console.log(typeof n);   // out : number type 
+    //  let cstring = n.toString();
+    //  console.log(typeof cstring);
+
+
+// toFixed = converts a number with fixed .. it returns an string 
+        // let fnum = 9.5617;
+        // console.log(fnum.toFixed(2));
+
+//toPresition = it returns a string and with the length
+
+    // let numpre = 1.25487
+    // console.log(numpre.toPrecision(1));
+
+//toValue = converts a number in a number 
+    
+    // let vnum = 150
+    // console.log(typeof vnum.valueOf());
 
