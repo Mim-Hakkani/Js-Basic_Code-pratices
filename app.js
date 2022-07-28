@@ -374,12 +374,56 @@ let arr = [1,2,3,4,5];
 // const citrus = fruitss.slice(2);
 // console.log(citrus);
 
-const data = ['a','b','c']
-console.log(data);
+// const data = ['a','b','c']
+// console.log(data);
 
- data.splice(1,0,'e','f');
-console.log(data);
+//  data.splice(1,0,'e','f');
+// console.log(data);
 
 
-data.slice(2);
-console.log(data);
+// data.slice(2);
+// console.log(data);
+
+// Array method sections 
+
+// sort 
+    // const hardware =['zzebra','bambolo','yelloe','kopalo','asolo'];
+    // hardware.sort();
+    // console.log(hardware);
+
+
+    //revese 
+        // hardware.reverse()
+        // console.log('reverse method :',hardware);
+
+// Sort in number 
+
+// const snumber = [10,52,65,84,78,5,15]
+// snumber.sort(function(a,b){
+//     return a-b;
+// });
+// console.log('sort the number :: ',snumber);
+
+// //reverse number 
+// const rnumber = [10,52,65,84,78,5,15]
+// rnumber.sort(function(a,b){
+//     return b-a;
+// });
+// console.log('sort the number :: ',rnumber);
+
+
+
+// object item sort 
+
+const items = [
+    {    name:'mim',byear:2001 },
+    {    name:'midm',byear:1995},
+    {    name:'mimf',byear:2025 },
+]
+
+items.sort(function(a,b){
+
+    return a.byear -b.byear
+});
+
+console.log(items);
