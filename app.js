@@ -1,429 +1,518 @@
-//variable in js 
+// //variable in js 
 
-var a = 10;
-let aa = 20;
-const pp = 30
+// const { some } = require("lodash");
 
-// console.log(a,aa,pp);
+// var a = 10;
+// let aa = 20;
+// const pp = 30
 
-// global scope 
+// // console.log(a,aa,pp);
 
-if(aa===20){
-//  console.log('global scope var::',a);
- let name = 'mim';
-//  console.log('block scope var::',name);
-}
+// // global scope 
 
-//  console.log('block scope var 2 check::',name); it is not working for block scope
+// if(aa===20){
+// //  console.log('global scope var::',a);
+//  let name = 'mim';
+// //  console.log('block scope var::',name);
+// }
 
-
-// about let variable 
-    /*
-            1. reused the double name 
-            2. connot use value outside the block sccope 
-            3. value is changable by using let constrant 
-
-    */
+// //  console.log('block scope var 2 check::',name); it is not working for block scope
 
 
-// hoisting in js 
+// // about let variable 
+//     /*
+//             1. reused the double name 
+//             2. connot use value outside the block sccope 
+//             3. value is changable by using let constrant 
 
-personalname = 'golam hakkani mim';
-var personalname;
-
-// console.log('hoisting :: ',personalname)
- // it is perfectly ok when using variable 
-
-
-// anotherName = kibria ;
-// let anotherName;
-
-// console.log('ishosted',anotherName); // it is not working in hoisted becauese of using let ,, 
+//     */
 
 
-// wellocome to the const world 
+// // hoisting in js 
 
-const price = [10,25,64,85,687];
-// console.log(price);
-price.push(155);
+// personalname = 'golam hakkani mim';
+// var personalname;
 
-// console.log(price);
-
-price.pop();
-// console.log(price);
+// // console.log('hoisting :: ',personalname)
+//  // it is perfectly ok when using variable 
 
 
-//arithmetic operator + - * / % ++ -- 
+// // anotherName = kibria ;
+// // let anotherName;
 
-let aamas =5;
-let b = 6;
-let z = a+b; // addition , substraction , multiplication , division , percent 
-
-
-// assign operator is js  = == === >= <= > < ! != ^= >>= >>>= <<= <<<= 
-
-a ===5 ;
-if(a<=b) {
-    // console.log(true);
-}
-else 
-{
-    // console.log(false );
-}
+// // console.log('ishosted',anotherName); // it is not working in hoisted becauese of using let ,, 
 
 
-//logical operator is here &&, || , !
+// // wellocome to the const world 
 
-if(a&&b){
-    // console.log('this is the and operator ');
-}
+// const price = [10,25,64,85,687];
+// // console.log(price);
+// price.push(155);
 
-// to check type we can use instance , and type of operator 
+// // console.log(price);
 
- const pps = typeof (a);
-//  console.log(pps);
-
-
- // function in javaScript 
-
- function hakkani(){
-    let num1 = 50;
-    let num2 = 100;
-    return num1+num2;
- }
-
-//  console.log(hakkani());
+// price.pop();
+// // console.log(price);
 
 
- function summation( nn1,nn2 = 'mim'){
-    // console.log(nn1,nn2);
-    let sum = nn1+nn2;
-    return sum;
+// //arithmetic operator + - * / % ++ -- 
+
+// let aamas =5;
+// let b = 6;
+// let z = a+b; // addition , substraction , multiplication , division , percent 
+
+
+// // assign operator is js  = == === >= <= > < ! != ^= >>= >>>= <<= <<<= 
+
+// a ===5 ;
+// if(a<=b) {
+//     // console.log(true);
+// }
+// else 
+// {
+//     // console.log(false );
+// }
+
+
+// //logical operator is here &&, || , !
+
+// if(a&&b){
+//     // console.log('this is the and operator ');
+// }
+
+// // to check type we can use instance , and type of operator 
+
+//  const pps = typeof (a);
+// //  console.log(pps);
+
+
+//  // function in javaScript 
+
+//  function hakkani(){
+//     let num1 = 50;
+//     let num2 = 100;
+//     return num1+num2;
+//  }
+
+// //  console.log(hakkani());
+
+
+//  function summation( nn1,nn2 = 'mim'){
+//     // console.log(nn1,nn2);
+//     let sum = nn1+nn2;
+//     return sum;
  
- }
+//  }
 
- const total = summation(5);
+//  const total = summation(5);
 
-//    console.log(total);
-
-
-//wellcome to the javaScript Object 
-
-const cars = {
-    name :'toyota',
-    weight:'500kg',
-    color:'white',
-    price:1452545,
-    start:function (){
-        //use use the parenet property in same function 
-        // console.log('The Car name is from function:',this.name +' '+ this.color);
-        // console.log('cholo na gure ase ojanateee,,,');
-    },
-
-    drive:function(){
-        // console.log('apni ki drive paren vaiii ,, ami to pari na geee');
-    }
-}
-
-// console.log(cars.name);
-// console.log(cars['weight']);
-// cars.start();
+// //    console.log(total);
 
 
-/* Complete the objects function in js up to the center  */
+// //wellcome to the javaScript Object 
+
+// const cars = {
+//     name :'toyota',
+//     weight:'500kg',
+//     color:'white',
+//     price:1452545,
+//     start:function (){
+//         //use use the parenet property in same function 
+//         // console.log('The Car name is from function:',this.name +' '+ this.color);
+//         // console.log('cholo na gure ase ojanateee,,,');
+//     },
+
+//     drive:function(){
+//         // console.log('apni ki drive paren vaiii ,, ami to pari na geee');
+//     }
+// }
+
+// // console.log(cars.name);
+// // console.log(cars['weight']);
+// // cars.start();
 
 
-// event lister in javascript 
-
-function demo(){
-   // console.log('golam hakkani mim');
-}
+// /* Complete the objects function in js up to the center  */
 
 
-// string method 
+// // event lister in javascript 
 
- let s_name = "cocakola,banana,cocunut|";
-
- //.log(s_name.slice(0,9)); // slice the data 
-
- //console.log(s_name.toUpperCase()); // show the uppercase letter 
-
- const replace = s_name.replace("col","pok");
-//  console.log(replace);
+// function demo(){
+//    // console.log('golam hakkani mim');
+// }
 
 
- // split in string 
+// // string method 
 
- const letters = "amade desher nam bangladesh"
-//  console.log(letters.split(" "));
+//  let s_name = "cocakola,banana,cocunut|";
 
+//  //.log(s_name.slice(0,9)); // slice the data 
 
- // js string search options 
+//  //console.log(s_name.toUpperCase()); // show the uppercase letter 
 
- const stringSearch = 'this is the ehsan marketing1 that i have seen good marketing2 site ' 
-
-//  console.log(stringSearch.indexOf("marketing"));
-//  console.log(stringSearch.indexOf("good",25)); 2nd parameter start the position of search 
-
-// laseIndexOf is the reverse of the first index 
-//  console.log(stringSearch.lastIndexOf("seen")); 
+// //  const replace = s_name.replace("col","pok");
+// //  console.log(replace);
 
 
-// search 
-//    it is not used the 2nd parameter 
+//  // split in string 
 
-// console.log('the lastindex of ::',stringSearch.search('marketing'));
-
-
-// match in search 
-    // const match = stringSearch.match(/marketing/g);
-    // console.log('thsis is the string match function ::',match);
+// //  const letters = "amade desher nam bangladesh"
+// //  console.log(letters.split(" "));
 
 
-// console.log(stringSearch.includes('marketings'));
+//  // js string search options 
 
-// Note: another search function is also added that is : 
+// //  const stringSearch = 'this is the ehsan marketing1 that i have seen good marketing2 site ' 
 
-        // startsWith('string')
-        // startsWith('string','parameter')
+// //  console.log(stringSearch.indexOf("marketing"));
+// //  console.log(stringSearch.indexOf("good",25)); 2nd parameter start the position of search 
 
-        // endsWith('string')
-        // endsWith('string',parameter )
+// // laseIndexOf is the reverse of the first index 
+// //  console.log(stringSearch.lastIndexOf("seen")); 
+
+
+// // search 
+// //    it is not used the 2nd parameter 
+
+// // console.log('the lastindex of ::',stringSearch.search('marketing'));
+
+
+// // match in search 
+//     // const match = stringSearch.match(/marketing/g);
+//     // console.log('thsis is the string match function ::',match);
+
+
+// // console.log(stringSearch.includes('marketings'));
+
+// // Note: another search function is also added that is : 
+
+//         // startsWith('string')
+//         // startsWith('string','parameter')
+
+//         // endsWith('string')
+//         // endsWith('string',parameter )
 
 
 
-// string template leterals 
+// // string template leterals 
 
-const company_name = `ehsan marketing `;
-let salary =20000;
+// const company_name = `ehsan marketing `;
+// let salary =20000;
 
-// console.log(`amader company name is ${company_name} and my salary is ${salary}`);
+// // console.log(`amader company name is ${company_name} and my salary is ${salary}`);
 
  
 
- // Nunbers in js 
+//  // Nunbers in js 
 
-//  Note : int number have 15 presission
-//         floating number have 17 pression 
+// //  Note : int number have 15 presission
+// //         floating number have 17 pression 
         
     
-// Summation : 
+// // Summation : 
 
-//   let as = 555;
-//   let bs = 1;
-//   console.log((as+bs));
-
-
-// const ps = 10;
-// const qs = 12
-// const nn = "10";
-// console.log(ps+qs+nn);   
-// console.log(nn+ps+qs);  
-
-// js code exexute in left to right  and first prioty is string when plus 
-
-// Note number + string  = string 
+// //   let as = 555;
+// //   let bs = 1;
+// //   console.log((as+bs));
 
 
+// // const ps = 10;
+// // const qs = 12
+// // const nn = "10";
+// // console.log(ps+qs+nn);   
+// // console.log(nn+ps+qs);  
 
-// js Numberic string 
-//    if the property is number inside of string like as "100" without plus operator it reads it as a number 
+// // js code exexute in left to right  and first prioty is string when plus 
 
-//   let ns = "100";
-//   let ns1 = "10";
-
-//   console.log(ns/ns1);
+// // Note number + string  = string 
 
 
 
-// Number method in js 
+// // js Numberic string 
+// //    if the property is number inside of string like as "100" without plus operator it reads it as a number 
 
-// toString = converts a number to string 
+// //   let ns = "100";
+// //   let ns1 = "10";
 
-    //  let n = 123
-    //  console.log(typeof n);   // out : number type 
-    //  let cstring = n.toString();
-    //  console.log(typeof cstring);
+// //   console.log(ns/ns1);
 
 
-// toFixed = converts a number with fixed .. it returns an string 
-        // let fnum = 9.5617;
-        // console.log(fnum.toFixed(2));
 
-//toPresition = it returns a string and with the length
+// // Number method in js 
 
-    // let numpre = 1.25487
-    // console.log(numpre.toPrecision(1));
+// // toString = converts a number to string 
 
-//toValue = converts a number in a number 
+//     //  let n = 123
+//     //  console.log(typeof n);   // out : number type 
+//     //  let cstring = n.toString();
+//     //  console.log(typeof cstring);
+
+
+// // toFixed = converts a number with fixed .. it returns an string 
+//         // let fnum = 9.5617;
+//         // console.log(fnum.toFixed(2));
+
+// //toPresition = it returns a string and with the length
+
+//     // let numpre = 1.25487
+//     // console.log(numpre.toPrecision(1));
+
+// //toValue = converts a number in a number 
     
-    // let vnum = 150
-    // console.log(typeof vnum.valueOf());
+//     // let vnum = 150
+//     // console.log(typeof vnum.valueOf());
 
 
-    // Number method part 2 
+//     // Number method part 2 
 
-        // parseFloat() = convets a string into float number ,, only 
-        // parseInt()
-        // Number()
+//         // parseFloat() = convets a string into float number ,, only 
+//         // parseInt()
+//         // Number()
 
-    //   example   Number : 
+//     //   example   Number : 
 
-        // Number(true);  1
-        // Number(false);  1
-        // Number("10"); 10
-        // Number("  10"); 10
-        // Number("10  "); 10
-        // Number(" 10  "); 10
-        // Number("10.33"); 10.33
-        // Number("10,33"); nan
-        // Number("10 33"); nan
-        // Number("John");  nan 
+//         // Number(true);  1
+//         // Number(false);  1
+//         // Number("10"); 10
+//         // Number("  10"); 10
+//         // Number("10  "); 10
+//         // Number(" 10  "); 10
+//         // Number("10.33"); 10.33
+//         // Number("10,33"); nan
+//         // Number("10 33"); nan
+//         // Number("John");  nan 
     
-        // parseInt example :
-        //  parseInt("-10");
-        // parseInt("-10.33");
-        // parseInt("10");
-        // parseInt("10.33");
-        // parseInt("10 20 30");
-        // parseInt("10 years");
-        // parseInt("years 10");
+//         // parseInt example :
+//         //  parseInt("-10");
+//         // parseInt("-10.33");
+//         // parseInt("10");
+//         // parseInt("10.33");
+//         // parseInt("10 20 30");
+//         // parseInt("10 years");
+//         // parseInt("years 10");
 
-// parseFloat("10"); 10.00
-// parseFloat("10.33"); 10.33
-// parseFloat("10 20 30"); 10
-// parseFloat("10 years"); 10 
-// parseFloat("years 10"); nan
-
-
-/* Array methad and properties  */
-
-// declare : 
-let arr = [1,2,3,4,5];
-// console.log(arr);
-
-// check length : arr.length 
-
-// see the value using loop 
-
-    // for(i=0;i<arr.length;i++){
-    // console.log(arr[i]);
-    // }
+// // parseFloat("10"); 10.00
+// // parseFloat("10.33"); 10.33
+// // parseFloat("10 20 30"); 10
+// // parseFloat("10 years"); 10 
+// // parseFloat("years 10"); nan
 
 
-// see the array value using foreach loop 
+// /* Array methad and properties  */
 
-    // function checkValue(value){
-    //     console.log(value+'mim');
-    // }
+// // declare : 
+// // let arr = [1,2,3,4,5];
+// // console.log(arr);
 
-    // arr.forEach(checkValue)
+// // check length : arr.length 
 
+// // see the value using loop 
 
- // array check 
-
-//  step 1 : 
-//         let checkarr = Array.isArray(arr);
-//         console.log(checkarr);
-
-// step 2 : 
-
-//   let check2 = arr instanceof Array;
-//   console.log(check2);
+//     // for(i=0;i<arr.length;i++){
+//     // console.log(arr[i]);
+//     // }
 
 
+// // see the array value using foreach loop 
 
-// Array Method in javaScripts 
+//     // function checkValue(value){
+//     //     console.log(value+'mim');
+//     // }
 
-// 1. toString  => see all array value separated by comma 
-// 2. join  => see all array value separated by ja dibo tai
-// 3. push  => add an element in last index
-// 4. pop  =>  remove last index
-// 5. shift  => remove first index
-// 6. unshift  => add first index
+//     // arr.forEach(checkValue)
 
 
-// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//  // array check 
 
-// let farr = fruits.toString();
-// console.log(farr);
+// //  step 1 : 
+// //         let checkarr = Array.isArray(arr);
+// //         console.log(checkarr);
 
-// Merging (Concatenating) 2 Arrays
+// // step 2 : 
 
-// const fruites2 = ["pieanaple","guava"]
-
-// let merge2array = fruits.concat(fruites2);
-// console.log(merge2array);
-
-// Merging or concating 3 Arrays 
-
-// const fruits3 =["Kismis"];
-
-// let allfruits =  fruits3.concat(fruites2,fruits)
-// console.log('concat all array is ::',allfruits);
-
-
-// Add elements in array in another way 
-
-//  const arrslice =fruits.splice(2,"badena","kolma") ;
-
-//  console.log(fruits.splice(0,5,"Lemon", "Kiwi"));
-
-
-// const fruitss = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-// const citrus = fruitss.slice(2);
-// console.log(citrus);
-
-// const data = ['a','b','c']
-// console.log(data);
-
-//  data.splice(1,0,'e','f');
-// console.log(data);
-
-
-// data.slice(2);
-// console.log(data);
-
-// Array method sections 
-
-// sort 
-    // const hardware =['zzebra','bambolo','yelloe','kopalo','asolo'];
-    // hardware.sort();
-    // console.log(hardware);
-
-
-    //revese 
-        // hardware.reverse()
-        // console.log('reverse method :',hardware);
-
-// Sort in number 
-
-// const snumber = [10,52,65,84,78,5,15]
-// snumber.sort(function(a,b){
-//     return a-b;
-// });
-// console.log('sort the number :: ',snumber);
-
-// //reverse number 
-// const rnumber = [10,52,65,84,78,5,15]
-// rnumber.sort(function(a,b){
-//     return b-a;
-// });
-// console.log('sort the number :: ',rnumber);
+// //   let check2 = arr instanceof Array;
+// //   console.log(check2);
 
 
 
-// object item sort 
+// // Array Method in javaScripts 
 
-const items = [
-    {    name:'mim',byear:2001 },
-    {    name:'midm',byear:1995},
-    {    name:'mimf',byear:2025 },
-]
+// // 1. toString  => see all array value separated by comma 
+// // 2. join  => see all array value separated by ja dibo tai
+// // 3. push  => add an element in last index
+// // 4. pop  =>  remove last index
+// // 5. shift  => remove first index
+// // 6. unshift  => add first index
 
-items.sort(function(a,b){
 
-    return a.byear -b.byear
-});
+// // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-console.log(items);
+// // let farr = fruits.toString();
+// // console.log(farr);
+
+// // Merging (Concatenating) 2 Arrays
+
+// // const fruites2 = ["pieanaple","guava"]
+
+// // let merge2array = fruits.concat(fruites2);
+// // console.log(merge2array);
+
+// // Merging or concating 3 Arrays 
+
+// // const fruits3 =["Kismis"];
+
+// // let allfruits =  fruits3.concat(fruites2,fruits)
+// // console.log('concat all array is ::',allfruits);
+
+
+// // Add elements in array in another way 
+
+// //  const arrslice =fruits.splice(2,"badena","kolma") ;
+
+// //  console.log(fruits.splice(0,5,"Lemon", "Kiwi"));
+
+
+// // const fruitss = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// // const citrus = fruitss.slice(2);
+// // console.log(citrus);
+
+// // const data = ['a','b','c']
+// // console.log(data);
+
+// //  data.splice(1,0,'e','f');
+// // console.log(data);
+
+
+// // data.slice(2);
+// // console.log(data);
+
+// // Array method sections 
+
+// // sort 
+//     // const hardware =['zzebra','bambolo','yelloe','kopalo','asolo'];
+//     // hardware.sort();
+//     // console.log(hardware);
+
+
+//     //revese 
+//         // hardware.reverse()
+//         // console.log('reverse method :',hardware);
+
+// // Sort in number 
+
+// // const snumber = [10,52,65,84,78,5,15]
+// // snumber.sort(function(a,b){
+// //     return a-b;
+// // });
+// // console.log('sort the number :: ',snumber);
+
+// // //reverse number 
+// // const rnumber = [10,52,65,84,78,5,15]
+// // rnumber.sort(function(a,b){
+// //     return b-a;
+// // });
+// // console.log('sort the number :: ',rnumber);
+
+
+
+// // object item sort 
+
+// // const items = [
+// //     {    name:'mim',byear:2001 },
+// //     {    name:'midm',byear:1995},
+// //     {    name:'mimf',byear:2025 },
+// // ]
+
+// // items.sort(function(a,b){
+
+// //     return a.byear -b.byear
+// // });
+
+// // console.log(items);
+
+
+
+// // Array Iteration 
+
+// //  1. foreach 
+// //  2.map
+// //  3.filter 
+// //  4.find 
+// //  5.reduce 
+// //  6.every
+// //  7.some
+// //  8.indexof 
+// //  9.lastindexof
+// //  10.keys
+// //  11.entites
+// //  12.includes
+
+
+// //  For Each : 
+// // const ffprices = [10,20,35,40,50]
+
+// // function handleprice(value,index,array){
+// // console.log('foreach',value);
+// // eta kiso return kore na 
+// // }
+// // const valueForeach = ffprices.forEach(handleprice) ;
+
+// // console.log('value of foreach ::',valueForeach);
+
+// // Map Method 
+
+// //   const ffprices2 = [10,12,14,15,187]
+
+// //   function handlePrice2 (value){
+// // //    console.log('Value of Map ::',value);
+// //     return value +1;
+// //   }
+// //   const valuemap = ffprices2.map(handlePrice2);
+// //   console.log(valuemap);
+
+
+
+// //   function handlePricefilter (value){
+   
+// //     console.log('filter value is :: ',value );
+// //     return value >=15;
+// //   }
+// // const valueFilter = ffprices2.filter(handlePricefilter)
+
+// // console.log(valueFilter);
+
+
+
+// // const ageFind = [10,20,14,26,44];
+
+// // const handleFind=(value)=>{
+ 
+// //     return value<=10
+
+// // }
+
+// // let findValue = ageFind.find(handleFind);
+
+// // console.log(findValue);
+
+
+
+// // const ageFind = [10,20,14,26,44];
+// // let indexValue = ageFind.indexOf(44); check the index of the array elements 
+// // console.log(indexValue);
+
+
+// //  Array Reduce 
+
+
+// // console.log('mimsad');
+
+// // js Date Method 
+
+// const d = new Date(); // date format is shown full date 
+// console.log('Date is :',typeof d.getDate()); // if i get individual date .hour,minutes , date 
+
+
+const d = new Date();
+d.setFullYear(2020, 11, 3);
+console.log(d);
