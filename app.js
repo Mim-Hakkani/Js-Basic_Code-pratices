@@ -513,6 +513,24 @@
 // console.log('Date is :',typeof d.getDate()); // if i get individual date .hour,minutes , date 
 
 
-const d = new Date();
-d.setFullYear(2020, 11, 3);
-console.log(d);
+// const d = new Date();
+// d.setFullYear(2020, 11, 3);
+// console.log(d);
+
+
+// JavasCript Math Function 
+
+const jsNumber = 6.45; //output 7
+ let mnumber = Math.round(jsNumber) ;
+ console.log('math cell:',Math.ceil(6.1)); //output 7
+ console.log('math floor:',Math.floor(6.99)); //output 7
+ console.log('math truncate:',Math.trunc(4.45)); //output 4
+ console.log('math power:',Math.pow(2,3)); //output 2^3
+ console.log('math borgoo:',Math.sqrt(64)); //output 8
+ console.log('math borgomul:',Math.sqrt(64)); //output 8
+ console.log('math borgomul:',Math.abs(-2.5)); //output 2.5
+ console.log('math max:',Math.max(5,1,25)); //output 25
+ console.log('math min:',Math.min(2,58,1)); //output 1
+ console.log('math random:',Math.random()); //output randomly
+
+
