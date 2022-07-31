@@ -570,3 +570,21 @@
 //     console.log('dfata is none ')
 // }
 
+
+// js Switch case 
+
+// let name = 'mm'
+
+// switch(name){
+//     case 'aa' :
+//         console.log('ami to aaa');
+//         break;
+//     case 'bb':
+//         console.log('ami to bb');
+//         break;
+//     case 'mm':
+//         console.log('ami ti asol ');
+//         break;
+//     default : 
+//     console.log('kono data nai re');
+// }
