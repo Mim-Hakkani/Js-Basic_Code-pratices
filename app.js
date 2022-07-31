@@ -541,7 +541,32 @@
 //  it works when the condition is == true 
 
 //  if the value is = 0,null,"",undefined,false,NAN,negative value 
+ 
 
-i
+/* Comparision operator  */
 
+// Comparison and Logical operators are used to test for true or false.
+
+//  JS Comparision operator :  ==,===,>,<,<=,>=,!=,!==,
+// Js Logical Operator : &&,||,!
+// Js Ternary operator : condition ? true ? false
+
+// if in js 
+// let k=5,kk=6;
+// console.log(6<5 ? 'true':'mfalse');
+// if(k<kk){
+//     console.log('data is true then value is shown');
+// }
+
+// Example of if elseif 
+
+// if('mim'){
+//  console.log('mim');
+// }
+// else if('hakkani'){
+//  console.log('hakkani')
+// }
+// else{
+//     console.log('dfata is none ')
+// }
 
