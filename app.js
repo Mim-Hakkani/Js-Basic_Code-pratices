@@ -619,3 +619,11 @@
     // for(let keys in person){
     //     console.log('get person keys :',person[keys]);
     // }
+
+
+  // for of loop is used in
+
+        // const val = [4,'mim',25.5,'adff']
+        // for(let i of val){
+        //     console.log(i);
+        // }
