@@ -588,3 +588,34 @@
 //     default : 
 //     console.log('kono data nai re');
 // }
+
+
+// Js Loops : 
+ 
+    //  for (let i = 0; i < 5; i++) {
+    //   text += "The number is " + i + "<br>";
+    // }
+
+
+    // let i = 1 ;
+
+    // while(i<5){
+    //     console.log(i);
+    //     i++
+    // }
+
+
+    // For in Loops 
+
+    // const person = {
+    //     name:'mim',
+    //     age:28,
+    //     color:"ddd",
+    //     gender:'male'
+    // }
+
+ 
+//  if used object keys then used for in loop
+    // for(let keys in person){
+    //     console.log('get person keys :',person[keys]);
+    // }
