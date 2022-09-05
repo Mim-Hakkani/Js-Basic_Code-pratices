@@ -623,7 +623,38 @@
 
   // for of loop is used in
 
-        // const val = [4,'mim',25.5,'adff']
-        // for(let i of val){
-        //     console.log(i);
-        // }
+         const val = [4,'mim',25.5,'adff']
+                // for(let i of val){
+                //     console.log(i);
+                // }
+         
+
+            // val.forEach(element =>
+            //     console.log(element)
+            // );
+
+            // val.map(item=>console.log(item))
+
+          
+            // console.log(  val.filter(a));
+
+    "use strict";
+
+    hdf = 5;
+    console.log(hdf);
+
+    // alert('google is my best ')
+
+    // const prommt = prompt('What is your gross salary ?');
+
+    const tttt = confirm('Are you Student ?');
+    console.log(tttt);
+    if(tttt){
+        console.log('Golam Hakkani mim');
+    }
+    else{
+        console.log('ehsan marketing is done ');
+    }
+        
+    // console.log('my gross salary is ::',prommt);
+ 
