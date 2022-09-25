@@ -21,15 +21,26 @@
 
     <!-- event lister  -->
 
-    <button onmouseover="demo()">Click korun</button>
+    <button id="details">Click korun</button>
 
     <button onclick="handleclick()">show Date After Click</button>
     <p id="showDate"></p>
  
     <script>
-        document.getElementById('seeelements').innerHTML='Golam Hakkani Mim';
 
-        // show time 
+        // inner html 
+
+        document.getElementById('details').addEventListener('click',function(){
+            // alert('hi');
+
+            document.getElementById("seeelements").innerHTML=`<h1>Golam Hakkani Mim </h1>`
+
+        })
+
+
+     
+
+        // show time using onclick 
 
         function handleclick(){
          document.getElementById("showDate").innerText=`
