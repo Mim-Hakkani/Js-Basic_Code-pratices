@@ -525,7 +525,7 @@
 //  console.log('math cell:',Math.ceil(6.1)); //output 7
 //  console.log('math floor:',Math.floor(6.99)); //output 7
 //  console.log('math truncate:',Math.trunc(4.45)); //output 4
-//  console.log('math power:',Math.pow(2,3)); //output 2^3
+//  console.log('math power:',Math.pow(2,3)); //output 2^3 =8
 //  console.log('math borgoo:',Math.sqrt(64)); //output 8
 //  console.log('math borgomul:',Math.sqrt(64)); //output 8
 //  console.log('math borgomul:',Math.abs(-2.5)); //output 2.5
@@ -623,7 +623,7 @@
 
   // for of loop is used in
 
-         const val = [4,'mim',25.5,'adff']
+        //  const val = [4,'mim',25.5,'adff']
                 // for(let i of val){
                 //     console.log(i);
                 // }
@@ -677,14 +677,16 @@
     // console.log(jaijaidin);
 
 
-    const infoName=45.5;
+    // const infoName=45.5;
 
-    const fullName = console.log(typeof infoName) || 'Ehsan Marketing'
+    // const fullName = console.log(typeof infoName) || 'Ehsan Marketing'
 
-    console.log(fullName);
+    // console.log(fullName);
 
-    // choose the and operations 
+    // // choose the and operations 
 
-    const phoneData = '';
+    // const phoneData = '';
 
-    const phoneDataView = phoneData && console.log('It is replace by Robi ');
+    // const phoneDataView = phoneData && console.log('It is replace by Robi ');
+
+

@@ -22,9 +22,22 @@
     <!-- event lister  -->
 
     <button onmouseover="demo()">Click korun</button>
+
+    <button onclick="handleclick()">show Date After Click</button>
+    <p id="showDate"></p>
  
     <script>
         document.getElementById('seeelements').innerHTML='Golam Hakkani Mim';
+
+        // show time 
+
+        function handleclick(){
+         document.getElementById("showDate").innerText=`
+         ${Date()} mim hakkani 
+        `
+        }
+
+       
     </script>
     <script src="./app.js"></script>
 </body>
