@@ -30,5 +30,11 @@ const number= [1,5,15,25];
 
  // join (join some extra element to array )
 
-  let joinNumber = number.join(" "); // 1 5 15 25 55 
+    let joinNumber = number.join(" "); // 1 5 15 25 55 
     //   console.log(typeof(joinNumber)); // return string type  
+
+
+ // reverse the Number 
+
+     number.reverse();
+    //  console.log(number);  // [ 55, 25, 15, 5, 1 ]
