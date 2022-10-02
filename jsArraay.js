@@ -71,3 +71,8 @@ number.unshift(45);  // add the first index of value
 // iterate the filter method  
 
 // number.filter(item=>console.log(item%5===0 ? item : ''))
+
+
+ // iterate find method 
+
+  number.find(item => console.log(item<5 ))
