@@ -1,5 +1,6 @@
 // play with javaScript array 
 
+
 //   1. declare with array 
 
 const number= [1,5,15,25];
@@ -53,3 +54,20 @@ const number= [1,5,15,25];
 number.unshift(45);  // add the first index of value 
 // console.log(number);
 
+ 
+//  includes method in array that find value inside the array 
+
+ number.includes(5)
+
+//  console.log(number.includes(5));  // it return always true or false 
+ 
+ 
+// iteraration method in map 
+
+// number.map(item=>console.log(item+5))
+// console.log(number);
+
+
+// iterate the filter method  
+
+// number.filter(item=>console.log(item%5===0 ? item : ''))
