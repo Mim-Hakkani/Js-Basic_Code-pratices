@@ -36,5 +36,20 @@ const number= [1,5,15,25];
 
  // reverse the Number 
 
-     number.reverse();
+    number.reverse();
     //  console.log(number);  // [ 55, 25, 15, 5, 1 ]
+
+
+// at function 
+
+  number.at(1);  // give the number value using index wise 
+
+//  console.log( number.at(3));
+
+   number.shift()   // delete the first element of array 
+ 
+// console.log(number);
+
+number.unshift(45);  // add the first index of value 
+// console.log(number);
+
