@@ -24,5 +24,11 @@ const number= [1,5,15,25];
 
 // fill (fill all elements in same to same )
 
-  //  number.fill('mim');  [ 'mim', 'mim', 'mim', 'mim', 'mim' ]
-    //  console.log(number);
+ //  number.fill('mim');  [ 'mim', 'mim', 'mim', 'mim', 'mim' ]
+ //  console.log(number);
+
+
+ // join (join some extra element to array )
+
+  let joinNumber = number.join(" "); // 1 5 15 25 55 
+    //   console.log(typeof(joinNumber)); // return string type  
