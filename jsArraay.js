@@ -75,4 +75,5 @@ number.unshift(45);  // add the first index of value
 
  // iterate find method 
 
-  number.find(item => console.log(item<5 ))
+ const mim=  number.find(item => item<55 )
+ console.log(mim);
