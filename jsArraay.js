@@ -75,5 +75,10 @@ number.unshift(45);  // add the first index of value
 
  // iterate find method 
 
- const mim=  number.find(item => item<55 )
- console.log(mim);
+//  const mim=  number.find(item => console.log(item>5) )
+//  console.log(number);
+
+
+// const NumberfindIndex = number.findIndex(item=>console.log(item<16 && item));
+
+
