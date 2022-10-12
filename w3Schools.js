@@ -3,7 +3,7 @@
 
   ************** */
 
-     
+
 // inner html 
 
 document.getElementById('seeelements').innerHTML=`<div>
@@ -27,4 +27,41 @@ document.getElementById("changeText").innerText=`Ehsan Software in the Firm`
  document.getElementById("changeStyles").style.fontSize="52px"
  document.getElementById("changeStyles").style.color="violet"
 
+
+
+ /********************************** 
+  
+         js output functionality  
+ 
+ ***********************************/
+
+    // console.log  used for debugging 
+
+ function showConsole(){
+    console.log('Ki re ba ... click korsis keno ?')
+ }
+
+
+  // inner html / inner text 
+
+  function Showinner(){
+
+    document.getElementById('inner').innerText="Change code ";
+  }
+
+
+  // document.write 
+
+   function showWrite(){
+    alert('Vebe Click korun ?? ');
+
+     document.write('Ja ,,, Baba sob Gelo koi ? ')
+   }
+
+
+   // print Handler 
+
+   function printHandler(){
+        window.print();
+   }
 
