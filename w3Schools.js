@@ -65,3 +65,20 @@ document.getElementById("changeText").innerText=`Ehsan Software in the Firm`
         window.print();
    }
 
+
+
+    /******************* showStatemetExample ********************* */
+
+    function showStatemetExample(){
+        alert(
+           ` 
+             let a,b,sum;
+             a = 5; 
+             b = 12;
+             sum = a+b;
+             
+            `
+          
+
+        )
+    }
