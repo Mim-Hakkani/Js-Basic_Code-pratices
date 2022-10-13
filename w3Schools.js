@@ -89,4 +89,31 @@ document.getElementById("changeText").innerText=`Ehsan Software in the Firm`
  hoistName = "Golam Hakkani Mim";
  var hoistName;
  console.log(hoistName);
+
    // value assign first then declare is possible in var variable but using let is not possible before declaration 
+
+
+   /**********
+     javascript Object With play 
+
+    * ******* */
+
+  // declare 
+
+  const Bperson ={
+   name : 'hakkani',
+   id   : 150132
+}
+
+// show 
+
+//  console.log('Name is : ', Bperson.name);
+//  console.log('Name is : ', Bperson);
+
+
+// play 
+
+Bperson.name ="Hasan vai ";
+
+console.log('Name is : ', Bperson.name);
+

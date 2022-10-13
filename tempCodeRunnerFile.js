@@ -1,79 +1,111 @@
-// play with javaScript array 
+/*************
+     Power Of JavaScript Code 
+
+  ************** */
 
 
-//   1. declare with array 
+// inner html 
 
-const number= [1,5,15,25];
-// console.log(number);  // a[1,5,15,25]
-
-
-
-//   push the array  (add value in the last index )
-
-    number.push(55);
-    number.push('mim')
-    // console.log(number);  // [ 1, 5, 15, 25, 55, 'mim' ]
+document.getElementById('seeelements').innerHTML=`<div>
+<h1 style="color:red">This is the Header </h1>
+<p>Golam Hakkani Mim</p>
+<button>Hakkani </button>
+</div> `;
 
 
+// inner text 
 
-//  pop (delete the last element of the array )
-
-     number.pop();
-    //  console.log(number);  // [ 1, 5, 15, 25, 55 ]
+document.getElementById("changeText").innerText=`Ehsan Software in the Firm`
 
 
+// change attributes 
 
-// fill (fill all elements in same to same )
+ document.getElementById("changewidth").src="m2.png"
 
- //  number.fill('mim');  [ 'mim', 'mim', 'mim', 'mim', 'mim' ]
- //  console.log(number);
+ // change style 
 
-
- // join (join some extra element to array )
-
-    let joinNumber = number.join(" "); // 1 5 15 25 55 
-    //   console.log(typeof(joinNumber)); // return string type  
+ document.getElementById("changeStyles").style.fontSize="52px"
+ document.getElementById("changeStyles").style.color="violet"
 
 
- // reverse the Number 
 
-    number.reverse();
-    //  console.log(number);  // [ 55, 25, 15, 5, 1 ]
-
-
-// at function 
-
-  number.at(1);  // give the number value using index wise 
-
-//  console.log( number.at(3));
-
-   number.shift()   // delete the first element of array 
+ /********************************** 
+  
+         js output functionality  
  
-// console.log(number);
+ ***********************************/
 
-number.unshift(45);  // add the first index of value 
-// console.log(number);
+    // console.log  used for debugging 
 
- 
-//  includes method in array that find value inside the array 
-
- number.includes(5)
-
-//  console.log(number.includes(5));  // it return always true or false 
- 
- 
-// iteraration method in map 
-
-// number.map(item=>console.log(item+5))
-// console.log(number);
+ function showConsole(){
+    console.log('Ki re ba ... click korsis keno ?')
+ }
 
 
-// iterate the filter method  
+  // inner html / inner text 
 
-// number.filter(item=>console.log(item%5===0 ? item : ''))
+  function Showinner(){
+
+    document.getElementById('inner').innerText="Change code ";
+  }
 
 
- // iterate find method 
+  // document.write 
 
- const mim=  number.find(item => console.log(item) )
- console.log(mim);
+   function showWrite(){
+    alert('Vebe Click korun ?? ');
+
+     document.write('Ja ,,, Baba sob Gelo koi ? ')
+   }
+
+
+   // print Handler 
+
+   function printHandler(){
+        window.print();
+   }
+
+
+
+    /******************* showStatemetExample ********************* */
+
+    function showStatemetExample(){
+        alert(
+           ` 
+             let a,b,sum;
+             a = 5; 
+             b = 12;
+             sum = a+b;
+             
+            `
+
+        )
+    }
+
+
+    /* var hoisting concept  */
+
+
+ hoistName = "Golam Hakkani Mim";
+ var hoistName;
+ console.log(hoistName);
+
+   // value assign first then declare is possible in var variable but using let is not possible before declaration 
+
+
+   /**********
+     javascript Object With play 
+
+    * ******* */
+
+  // declare 
+
+  const Bperson ={
+   name : 'hakkani',
+   id   : 150132
+}
+
+// show 
+
+ console.log('Name is : ', Bperson.name);
+
