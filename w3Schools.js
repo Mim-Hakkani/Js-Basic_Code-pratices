@@ -115,5 +115,5 @@ document.getElementById("changeText").innerText=`Ehsan Software in the Firm`
 
 Bperson.name ="Hasan vai ";
 
-console.log('Name is : ', Bperson.name);
+console.log('Name is : ', typeof Bperson["id"]);
 
