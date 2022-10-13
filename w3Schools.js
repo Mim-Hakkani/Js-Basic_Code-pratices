@@ -93,6 +93,23 @@ document.getElementById("changeText").innerText=`Ehsan Software in the Firm`
    // value assign first then declare is possible in var variable but using let is not possible before declaration 
 
 
+
+
+   /*  function details 
+   
+    1. function declaration 
+    2. augument and parameter 
+    3. return 
+    4. reuse code using the function call
+    5. after return break the function activity bellow the code is not execute 
+    
+    6. 
+   
+   
+   */
+
+
+
    /**********
      javascript Object With play 
 
