@@ -103,7 +103,27 @@ document.getElementById("changeText").innerText=`Ehsan Software in the Firm`
     4. reuse code using the function call
     5. after return break the function activity bellow the code is not execute 
     
-    6. 
+    6. if not return the code default it return undefined value 
+
+    8 using variable inside the function works as blobk scope and global scope 
+
+     
+
+    Example : 
+
+   //  function declaration 
+   
+     function PersonalInfo(name,roll){
+       designation = "Engineer"
+
+        salary = 30000;
+
+        return salary;
+
+        console.log("code is not working ");
+     }
+
+     PersonalInfo("mim",111250); // function call
    
    
    */
