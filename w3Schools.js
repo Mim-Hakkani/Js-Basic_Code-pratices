@@ -78,7 +78,15 @@ document.getElementById("changeText").innerText=`Ehsan Software in the Firm`
              sum = a+b;
              
             `
-          
 
         )
     }
+
+
+    /* var hoisting concept  */
+
+
+ hoistName = "Golam Hakkani Mim";
+ var hoistName;
+ console.log(hoistName);
+   // value assign first then declare is possible in var variable but using let is not possible before declaration 
