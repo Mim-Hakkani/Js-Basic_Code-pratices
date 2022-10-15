@@ -154,3 +154,38 @@ Bperson.name ="Hasan vai ";
 
 console.log('Name is : ', typeof Bperson["id"]);
 
+
+
+/*********
+ 
+ Java Script Data Types 
+ premitive = direct store value in variable 
+
+   premitive = number , string , boolean , undefind , null 
+
+  Ex: 
+    
+  let  a = 10 // Number 
+  let  a = 'hakkani // String 
+  let  a = true // Boolean 
+  let  a    // declare but not assigned  is called undefined 
+  let a =null   // not undedined but null 
+  
+  
+Nonpremitive : Store reference 
+
+   NonPremitive = ( array ,object , function )
+
+   Ex : 
+
+    let a[4,5,15,20]  // array 
+
+    const person = {name : "hakkani"}  // object 
+
+     const Hakkanimim =()=> a+b;  // function
+  
+
+   [ Check different type using typeof ]
+
+ 
+ **********/
