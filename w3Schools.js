@@ -152,13 +152,14 @@ document.getElementById("changeText").innerText=`Ehsan Software in the Firm`
 
 Bperson.name ="Hasan vai ";
 
-console.log('Name is : ', typeof Bperson["id"]);
+// console.log('Name is : ', typeof Bperson["id"]);
 
 
 
 /*********
  
- Java Script Data Types 
+ Java Script Data Types  : 
+
  premitive = direct store value in variable 
 
    premitive = number , string , boolean , undefind , null 
@@ -189,3 +190,15 @@ Nonpremitive : Store reference
 
  
  **********/
+
+
+
+   /***************
+      Variable : 
+
+
+       const a = 5;  // not rechange  -> blockScope
+       let a = 10 ;  // rechange  => blockScope
+       var m = 15    //  rechage => globalScope 
+
+    ******************/
