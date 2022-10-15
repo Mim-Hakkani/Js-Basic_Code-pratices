@@ -201,4 +201,13 @@ Nonpremitive : Store reference
        let a = 10 ;  // rechange  => blockScope
        var m = 15    //  rechage => globalScope 
 
+
+    Variable Concatenation : 
+
+      const a = 'mim'+ 'hakkani'  = > mimhakkani => string+string = string
+
+      [Note : String + All ] = String 
+      [Note : Number + Number ] =Number 
+      [Note: 10+10+'mim'] = 20mim type string
+
     ******************/
