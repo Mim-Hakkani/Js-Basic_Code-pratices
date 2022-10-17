@@ -342,14 +342,6 @@ Calculate median :
 6. find the median
 
 
-
- 
-
-        
-
-
-
-
-
-
 */
+
+

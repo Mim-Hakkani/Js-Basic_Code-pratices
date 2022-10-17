@@ -211,3 +211,40 @@ Nonpremitive : Store reference
       [Note: 10+10+'mim'] = 20mim type string
 
     ******************/
+
+
+    /**************** Js Hoisting ************ */
+
+    // hoisting step 1 : 
+
+      // 1. firstly creation phase all function declare first 
+      // 2. js declare all item is read first 
+      
+  
+// hoisting for function 
+
+Summation();
+
+function Summation(){
+  let a = 4;
+  let b = 40;
+
+  let summation = a+b;
+  //  console.log("Summation : ",summation);
+}
+
+
+// hoisting for variable (using var) 
+a = 10
+console.log('this number is : ',a);  // undefind 
+var a ;
+
+/*
+
+if is hoisted  process : 
+
+var a = undefined
+a= 10
+console.log(a);
+
+*/
