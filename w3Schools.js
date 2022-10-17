@@ -236,15 +236,34 @@ function Summation(){
 
 // hoisting for variable (using var) 
 a = 10
-console.log('this number is : ',a);  // undefind 
+// console.log('this number is : ',a);  // undefind 
 var a ;
 
+
+/**********************
+
+  if is hoisted  process : 
+
+    var a = undefined
+    a= 10
+    console.log(a);
+
+***********************/
+
+hoistA=100;
+console.log('value is : ',hoistA);
+let hoistA
+
 /*
+using let ,,
 
-if is hoisted  process : 
+  let hoistA  declare but not undefined 
 
-var a = undefined
-a= 10
-console.log(a);
+  hoistA = 100
+
+  console.log(hoistA);
+
 
 */
+
+
