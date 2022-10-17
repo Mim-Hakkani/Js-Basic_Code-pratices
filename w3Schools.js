@@ -266,4 +266,10 @@ using let ,,
 
 */
 
+aconstHoist = 021;
+// const aconstHoist ;
+// console.log(aconstHoist); see the syntax error because  in const 
+// initialize and declate at a time otherwise it called syatax error
+
+
 
