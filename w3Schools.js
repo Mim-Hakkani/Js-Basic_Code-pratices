@@ -278,8 +278,7 @@ Nonpremitive : Store reference
       }
       if(fnumber<0) throw "Not A Negative Number ";
       if(fnumber>15) throw "Too Large ";
-      fnumber =Number(fnumber);
-      
+      fnumber =Number(fnumber);     
     }
 
     catch(err){
