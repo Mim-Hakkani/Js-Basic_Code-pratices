@@ -232,7 +232,7 @@ Nonpremitive : Store reference
     let  placeName = "America";
    
     function SkyColors(){
-     console.log('Global Scope in the SkyColor : ',placeName, SkyColor );
+    //  console.log('Global Scope in the SkyColor : ',placeName, SkyColor );
     }
 
      SkyColors();
@@ -240,7 +240,7 @@ Nonpremitive : Store reference
 
     function GymCenters(){
       var locations = "Bogura";
-      console.log("Gym Center Location : ", locations);
+      // console.log("Gym Center Location : ", locations);
     }
 
     // location ="Dhaka";  reference error 
@@ -256,10 +256,38 @@ Nonpremitive : Store reference
     if(true){
       let BlockA = 5;
       const BlockB = 10;
-      console.log('Two Variables is : ', BlockB,BlockA);
+      // console.log('Two Variables is : ', BlockB,BlockA);
     }
 
-    console.log('May not be defined  : ',BlockB);
+    // console.log('May not be defined  : ',BlockB);
+
+
+
+    /************** 
+        try catch finally
+
+    *******************/
+
+    let fnumber = "hkkani bapureee "
+
+    try{
+      if(fnumber=="") throw "Empty Number ";
+      if(isNaN(fnumber)) throw {
+        name:'Hakkani error ',
+        message:"This is Not Number "
+      }
+      if(fnumber<0) throw "Not A Negative Number ";
+      if(fnumber>15) throw "Too Large ";
+      fnumber =Number(fnumber);
+      
+    }
+
+    catch(err){
+      console.log(err.name + err.message);
+       
+    }
+
+    console.log("Real Number is : ",fnumber);
 
 
 
