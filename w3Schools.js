@@ -4,6 +4,7 @@
   ************** */
 
 
+
 // inner html 
 
 document.getElementById('seeelements').innerHTML=`<div>
@@ -88,7 +89,7 @@ document.getElementById("changeText").innerText=`Ehsan Software in the Firm`
 
  hoistName = "Golam Hakkani Mim";
  var hoistName;
- console.log(hoistName);
+//  console.log(hoistName);
 
    // value assign first then declare is possible in var variable but using let is not possible before declaration 
 
@@ -213,6 +214,90 @@ Nonpremitive : Store reference
     ******************/
 
 
+      /*******************
+       
+            JS  Scope 
+
+         ***********************/
+
+  /*
+    1. Global Scope (var )
+    2. Function Scope (let,const,var)
+    3. Block Scope (let ,const)
+
+  */
+
+  // Global : 
+    var SkyColor = 'Blue';
+    let  placeName = "America";
+   
+    function SkyColors(){
+     console.log('Global Scope in the SkyColor : ',placeName, SkyColor );
+    }
+
+     SkyColors();
+    //  Function Scope :
+
+    function GymCenters(){
+      var locations = "Bogura";
+      console.log("Gym Center Location : ", locations);
+    }
+
+    // location ="Dhaka";  reference error 
+
+    // console.log('New Location is : ',locations); reference error / undefined 
+
+    GymCenters();
+
+
+    // Block Scope 
+
+
+    if(true){
+      let BlockA = 5;
+      const BlockB = 10;
+      console.log('Two Variables is : ', BlockB,BlockA);
+    }
+
+    console.log('May not be defined  : ',BlockB);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**************** Js Hoisting ************ */
 
     // hoisting step 1 : 
@@ -235,7 +320,7 @@ function Summation(){
 
 
 // hoisting for variable (using var) 
-a = 10
+a = 10;
 // console.log('this number is : ',a);  // undefind 
 var a ;
 
@@ -250,9 +335,9 @@ var a ;
 
 ***********************/
 
-hoistA=100;
-console.log('value is : ',hoistA);
-let hoistA
+// hoistA=100;
+// console.log('value is : ',hoistA);
+// let hoistA
 
 /*
 using let ,,
@@ -272,4 +357,17 @@ aconstHoist = 021;
 // initialize and declate at a time otherwise it called syatax error
 
 
+/**************
+     String in JavaScript  
 
+  ******************* */
+
+
+    //  declare 
+
+    text ="Hakkani";
+    // console.log('your name is :: ',text);
+
+    // lengthCheck 
+
+    // console.log(text.length);
