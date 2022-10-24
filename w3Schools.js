@@ -427,7 +427,7 @@ aconstHoist = 021;
           // child function 
         return function(){
            let b = 10;
-           console.log('Sumamtion is :',a+b);
+          //  console.log('Sumamtion is :',a+b);
         }
        }
 
@@ -444,10 +444,48 @@ aconstHoist = 021;
           function closureParent(fatherName){
 
             return function ChildName(myName){
-              console.log('Full Name Of Ours : ',fatherName + ' Son Of '+myName);
+              // console.log('Full Name Of Ours : ',fatherName + ' Son Of '+myName);
             }
           }
 
           // call the function 
 
-          closureParent('A.Karim')('Golam Hakkani Mim')
+          closureParent('A.Karim')('Golam Hakkani Mim');
+
+
+
+          /**********************
+            
+          Immediately Invoked Function Expressions (IIFE) 
+
+          আমাদের সাধারনত কোনো ফাংশন বানানোর পর পরে সেটাকে কল করে ইউজ করতে হয়। কিন্তু যদি আমরা ফাংশন বানানোর সাথে সাথেই সেটাকে কল করতে চাই সেক্ষেত্রে আমরা ইফি Immediately Invoked Function Expressions (IIFE) টেকনিক ইউজ করতে পারি।
+            
+           ************************/
+
+          // declaration 
+
+
+          (function(){
+            console.log('IIFE ,,, Hellow world ');
+          })();
+
+          // declare with argument passing 
+
+          (function mynae(name){
+            console.log('IIFE ,,, Hellow world '+ name);
+          }
+          )('Hakkani');
+
+          // declare with object ,return and store variables 
+          
+          var EmployeInfo = (function(){
+            var personalInfo = {
+              name :'Ehsan Marketing ',
+              location:'Bogura'
+            };
+            return personalInfo;
+          })();
+          
+          console.log('Employee information : ', EmployeInfo.name);
+
+          
