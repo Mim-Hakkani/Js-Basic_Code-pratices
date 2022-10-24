@@ -282,18 +282,48 @@ Nonpremitive : Store reference
     }
 
     catch(err){
-      console.log(err.name + err.message);
+      // console.log(err.name + err.message);
        
     }
 
-    console.log("Real Number is : ",fnumber);
+    // console.log("Real Number is : ",fnumber);
 
 
+   /*********************** 
+    
+        Lexical Scope in javaScript 
+
+      **********************/
 
 
+        function parentfunction(){
+           var a = 10;
+
+           function childFunction(){
+            var b = 40;
+            const sum = a+b;
+            console.log('Summation from child : ', sum);
+           }
+
+           childFunction();
+
+          //  console.log('Summation from parent is : ', a+b); referance error 
+        }
+
+         
+        // call the parent function 
+
+        parentfunction();
 
 
+  /*
+  
+  the lexical error is the error that use parent data in child function  but child to parent is not accessable 
 
+  parent -> child 
+  child x parent 
+   
+  */
 
 
 
