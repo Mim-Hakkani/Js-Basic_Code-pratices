@@ -289,11 +289,17 @@ Nonpremitive : Store reference
     // console.log("Real Number is : ",fnumber);
 
 
+
+
+
+
    /*********************** 
     
         Lexical Scope in javaScript 
 
       **********************/
+
+
 
 
         function parentfunction(){
@@ -302,7 +308,7 @@ Nonpremitive : Store reference
            function childFunction(){
             var b = 40;
             const sum = a+b;
-            console.log('Summation from child : ', sum);
+            // console.log('Summation from child : ', sum);
            }
 
            childFunction();
@@ -324,33 +330,6 @@ Nonpremitive : Store reference
   child x parent 
    
   */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -428,3 +407,47 @@ aconstHoist = 021;
     // lengthCheck 
 
     // console.log(text.length);
+
+
+
+
+    /*********************
+    
+       Closure in JavaScript 
+     
+    ****************************/
+
+
+      //  closure example 1 : 
+         
+         //  parentfunction 
+       function closureJS(){
+        let a = 4;
+
+          // child function 
+        return function(){
+           let b = 10;
+           console.log('Sumamtion is :',a+b);
+        }
+       }
+
+       closureJS()();
+
+       /*********************
+          আমরা যদি প্যারেন্ট ফাংশনটা রিটার্ন করে ফেলি তারপরেও আমরা চাইল্ড ফাংশন থেকে প্যারেন্ট ফাংশনের ভ্যারিয়েবল, ফাংশন অথবা অবজেক্ট অ্যাক্সেস করতে পারবো। কারণ এগুলো রিটার্ন হওয়ার পরও মেমোরী তে থেকে যায়। আর এটাই হচ্ছে ক্লোজারস।
+       ***********************/
+
+
+          // closure example 2  with parameter 
+
+
+          function closureParent(fatherName){
+
+            return function ChildName(myName){
+              console.log('Full Name Of Ours : ',fatherName + ' Son Of '+myName);
+            }
+          }
+
+          // call the function 
+
+          closureParent('A.Karim')('Golam Hakkani Mim')
