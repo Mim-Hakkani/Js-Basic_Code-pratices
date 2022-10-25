@@ -488,4 +488,17 @@ aconstHoist = 021;
           
           console.log('Employee information : ', EmployeInfo.name);
 
-          
+   /****************************************************** */ 
+   
+  //  closure pratices : 
+
+  function closurepratices(){
+     const a = 55;
+
+     return function childSide(){
+        const b = 5;
+        console.log('Summation pratices closure:',a+b);
+     }
+  }
+
+  closurepratices()()
