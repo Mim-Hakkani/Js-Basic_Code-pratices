@@ -506,8 +506,24 @@ aconstHoist = 021;
 
   // IIFE pratices : 
 
-     (function autocall(ownerName){
-       console.log('hi ami auto calling function dont mind aa '.concat(ownerName));
-     })('createbyMim')
+    //  (function autocall(ownerName){
+    //    console.log('hi ami auto calling function dont mind aa '.concat(ownerName));
+    //  })('createbyMim') ;
 
+  
+  /***************** This KeyWord in Js  *********************/
+
+
+  //  step 1 : ১। গ্লোবাল রুলস 
+
+
+  function thisCheck(){
+     console.log(this);  // window dekhabe console e 
+
+    //  this.name = "Ehsan Marketing Staff Dashboard "  // works as globally 
+  }
+
+  thisCheck()
+
+  // console.log(name);
 
