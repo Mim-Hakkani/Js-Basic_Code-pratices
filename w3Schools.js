@@ -549,7 +549,7 @@ aconstHoist = 021;
       another:{
         name:'Rafia Khatun',
         works:function(){
-          console.log('Comes From Another :: ',this.name);
+          // console.log('Comes From Another :: ',this.name);
         },
         // isTrue:function(){
         //    console.log(another===this);  undefined 
@@ -558,7 +558,7 @@ aconstHoist = 021;
       },
 
        isTrue:function(){
-           console.log(thisObject2===this);  
+          //  console.log(thisObject2===this);  
         }, 
 
      
@@ -566,6 +566,28 @@ aconstHoist = 021;
    
 
   }
- thisObject2?.isTrue()
+  thisObject2?.isTrue()
   thisObject2?.another?.works();
+
+
+
+  // play with this call method 
+
+
+  var myCustomObj = {
+   name: 'Zonayed Ahmed',
+   age: 21,
+   job: 'Student',
+   anotherObj: {
+      name: 'Ahmed Zonayed',
+      value: function() {
+         console.log(this);  // it indicated the current object property like anotherobj
+      }
+   }
+}
  
+myCustomObj.anotherObj.value()
+
+// if i want to access the first object property then use call method 
+
+myCustomObj.anotherObj.value.call(myCustomObj)
