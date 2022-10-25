@@ -535,8 +535,37 @@ aconstHoist = 021;
     name : "hakkani ",
     id :'d125df86',
     frontEnd: function(){
-      console.log('Name is :: ',this.name);
+      // console.log('Name is :: ',this.name); 
+      // এখানে this কীওয়ার্ড সবসময় কাছের কাস্টমভাবে ডিফাইনকৃত অবজেক্টটাকে ইন্ডিকেট করবে।
     }
   }
 
-  thisObject?.frontEnd()
+  thisObject?.frontEnd();
+
+
+  const thisObject2 = {
+    name:'anower hossain',
+    id:'11225587',
+      another:{
+        name:'Rafia Khatun',
+        works:function(){
+          console.log('Comes From Another :: ',this.name);
+        },
+        // isTrue:function(){
+        //    console.log(another===this);  undefined 
+        // }, 
+   
+      },
+
+       isTrue:function(){
+           console.log(thisObject2===this);  
+        }, 
+
+     
+    
+   
+
+  }
+ thisObject2?.isTrue()
+  thisObject2?.another?.works();
+ 
