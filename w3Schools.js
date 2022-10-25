@@ -466,13 +466,13 @@ aconstHoist = 021;
 
 
           (function(){
-            console.log('IIFE ,,, Hellow world ');
+            // console.log('IIFE ,,, Hellow world ');
           })();
 
           // declare with argument passing 
 
           (function mynae(name){
-            console.log('IIFE ,,, Hellow world '+ name);
+            // console.log('IIFE ,,, Hellow world '+ name);
           }
           )('Hakkani');
 
@@ -486,19 +486,28 @@ aconstHoist = 021;
             return personalInfo;
           })();
           
-          console.log('Employee information : ', EmployeInfo.name);
+          // console.log('Employee information : ', EmployeInfo.name);
 
    /****************************************************** */ 
    
   //  closure pratices : 
 
-  function closurepratices(){
-     const a = 55;
+      // function closurepratices(){
+      //   const a = 55;
 
-     return function childSide(){
-        const b = 5;
-        console.log('Summation pratices closure:',a+b);
-     }
-  }
+      //   return function childSide(){
+      //       const b = 5;
+      //       console.log('Summation pratices closure:',a+b);
+      //   }
+      // }
 
-  closurepratices()()
+      // closurepratices()()
+
+
+  // IIFE pratices : 
+
+     (function autocall(ownerName){
+       console.log('hi ami auto calling function dont mind aa '.concat(ownerName));
+     })('createbyMim')
+
+
