@@ -518,7 +518,7 @@ aconstHoist = 021;
 
 
   function thisCheck(){
-     console.log(this);  // window dekhabe console e 
+    //  console.log(this);  // window dekhabe console e 
 
     //  this.name = "Ehsan Marketing Staff Dashboard "  // works as globally 
   }
@@ -527,3 +527,16 @@ aconstHoist = 021;
 
   // console.log(name);
 
+
+  // step 2 : অবজেক্ট রুলস 
+
+
+  const thisObject ={
+    name : "hakkani ",
+    id :'d125df86',
+    frontEnd: function(){
+      console.log('Name is :: ',this.name);
+    }
+  }
+
+  thisObject?.frontEnd()
