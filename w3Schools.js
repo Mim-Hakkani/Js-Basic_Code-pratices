@@ -581,7 +581,7 @@ aconstHoist = 021;
    anotherObj: {
       name: 'Ahmed Zonayed',
       value: function() {
-         console.log(this);  // it indicated the current object property like anotherobj
+        //  console.log(this);  // it indicated the current object property like anotherobj
       }
    }
 }
@@ -591,3 +591,58 @@ myCustomObj.anotherObj.value()
 // if i want to access the first object property then use call method 
 
 myCustomObj.anotherObj.value.call(myCustomObj)
+
+
+/*******************
+ 
+        Call()  method 
+
+    ********************/
+
+
+        const callMethod1 ={
+           
+          name :'Hakkani mim ',
+          callMethod2 : {
+             id:'015768761',
+             name:'muhammad sm',
+             anotherCall : function (){
+                      console.log('Value is : '+this.name);
+                    }
+          }
+
+         
+        }
+   
+         // call in first object using call 
+
+        callMethod1.callMethod2.anotherCall.call(callMethod1);
+
+
+ // object 1 
+
+      const karim = {
+        name :'Abdul Karim Dad',
+        dob:1965,
+        age:function(currentYear){
+          console.log('Your are '+`${this.name} ${currentYear-this.dob}` +' years old');
+        }
+      }
+
+
+      // object 2 
+
+      var rahim = {
+                    name: 'Rahim nana',
+                    dob: 1986
+                  }
+
+
+
+      // karim.age.call(rahim,2022,name);
+
+      // karim.age.call(rahim,2026);
+
+      // karim.age.apply(rahim,[2025]);
+
+   
