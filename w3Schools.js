@@ -561,18 +561,11 @@ aconstHoist = 021;
           //  console.log(thisObject2===this);  
         }, 
 
-     
-    
-   
-
   }
   thisObject2?.isTrue()
   thisObject2?.another?.works();
 
-
-
   // play with this call method 
-
 
   var myCustomObj = {
    name: 'Zonayed Ahmed',
@@ -659,4 +652,29 @@ myCustomObj.anotherObj.value.call(myCustomObj)
 
         // difference এখন প্রিমিটিভ ডাটা টাইপ আর অবজেক্ট এর মধ্যে প্রধান ডিফারেন্স হচ্ছে এদের ভ্যালু স্টোর করার সিস্টেমে। যেখানে প্রিমিটিভ ডাটা টাইপে ভ্যালু নিজের কাছেই স্টোর করে, অন্যদিকে অবজেক্ট সাধারণত সরাসরি ডাটা স্টোর করে না, বরং ঐ ডাটাটা অন্যকোথাও থাকে, অবজেক্ট এ জাস্ট ঐটার রেফারেন্স থাকে।
 
-   
+
+      //  sa = 10 ;
+      //  sb = 20 ;
+
+      //  console.log('before swap a and b is : ',sa,sb);
+
+      //  function swap(a,b){
+      //   console.log('Before Swap inside the function : ',a,b);
+      //   temp = a;
+      //   a= b;
+      //   b=temp;
+
+      //   console.log('After Swap then :: ',a,b);
+      //  }
+       
+      // swap(sa,sb);
+      // console.log('After swap outside the function : ',sa,sb);
+let width = screen.width;
+// console.log(width);
+
+$(document).height();
+let pp = $(document).width();
+
+// console.log('hakkani width :: ', pp);
+
+// golam hakkani mim 
