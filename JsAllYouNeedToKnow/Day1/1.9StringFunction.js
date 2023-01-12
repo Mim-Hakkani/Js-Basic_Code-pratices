@@ -46,5 +46,11 @@ let str12 = str9.substring(4,15);
 // substring()  and accept the negative value 
 // console.log(str12);
 
-console.log(str9.slice(7, 12));
+// console.log(str9.slice(7, 12));
+
+console.log(str9.split(" "));
+
+const splitData = str9.split(" ");
+
+// console.log(splitData[0]);
 
