@@ -14,3 +14,7 @@
   const convert2 = Number(num3);
   console.log('test',typeof(convert2));
   console.log(convertedNumber);
+
+
+//   NaN 
+
