@@ -10,4 +10,4 @@ console.log('Maximum number :',Math.max(122,355,488,5));
 console.log('Minimum number is :',Math.min(122,355,488,5));
 console.log('Sqrt is :',Math.sqrt(64));
 console.log('Power is :',Math.pow(2,3));
-console.log('Random is :',Math.round(Math.random()*50));
+console.log('Random is :',Math.round(Math.random()*10));
