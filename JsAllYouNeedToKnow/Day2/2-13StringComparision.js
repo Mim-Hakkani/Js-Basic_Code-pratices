@@ -1,5 +1,6 @@
-let a = 'aaa';
-let b ='aaa';
+let a = 'Aaaa';
+let b ='aaaA';
+
 
 if(a==b){
     console.log('true');
