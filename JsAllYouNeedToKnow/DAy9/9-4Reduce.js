@@ -19,6 +19,15 @@ let mul = arr.reduce(function(pre,curr){
 },1 )  // 1 is the initial value 
 
 
+let items = ['apple', 'banana', 'apple', 'orange'];
+let count = items.reduce((acc, cur) => {
+  acc[cur] = (acc[cur] || 0) + 1;
+  return acc;
+}, {});
+console.log(count); // { apple: 2, banana: 1, orange: 1 }
+
+
+
 // console.log(max);
 // console.log(min);
 // console.log(sum);
