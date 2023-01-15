@@ -1,3 +1,6 @@
+
+// when we are not use function name then this type of function is called annonimus function 
+
 const value = function(a,b){
     sum = a+b;
     return sum
@@ -30,3 +33,6 @@ console.log(value(2,3));
         console.log('ami kiso buji nai ');
         console.log(value(6,5))
     },5000)
+
+
+    // setTimeout(() => { alert("Hello"); }, 2000);
