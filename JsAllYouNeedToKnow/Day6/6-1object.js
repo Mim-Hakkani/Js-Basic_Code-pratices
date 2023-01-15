@@ -7,6 +7,7 @@ const std = {
 // add property in object 
 
    std.university = "pust"
+   std.gender = "Male"
 
 // console.log(std);
 
@@ -19,3 +20,9 @@ const std = {
 // see the object value using array notation 
 
  console.log(std['Roll']);
+
+
+ // remove object property 
+console.log('Before Delete property :: ',std);
+delete std.gender ;
+console.log("After Delete Std property :: ",std);
