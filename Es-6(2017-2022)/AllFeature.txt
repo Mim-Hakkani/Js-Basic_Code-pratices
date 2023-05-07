@@ -1,0 +1,62 @@
+Es-2016 : 
+JavaScript Exponentiation (**)
+JavaScript Exponentiation assignment (**=)
+JavaScript Array includes()
+
+Es-2017 :
+JavaScript String padding
+JavaScript Object entries()
+JavaScript Object values()
+JavaScript async and await
+JavaScript Object.getOwnPropertyDescriptors
+
+Es-2018 :
+
+Asynchronous Iteration
+Promise Finally
+Object Rest Properties
+New RegExp Features
+JavaScript Shared Memory
+
+Es-2019 :
+
+String.trimStart()
+String.trimEnd()
+Object.fromEntries
+Optional catch binding
+Array.flat()
+Array.flatMap()
+Revised Array.Sort()
+Revised JSON.stringify()
+Separator symbols allowed in string litterals
+Revised Function.toString()
+
+Es-2020 :
+
+BigInt
+String matchAll()
+The Nullish Coalescing Operator (??)
+The Optional Chaining Operator (?.)
+Logical AND Assignment Operator (&&=)
+Logical OR Assignment (||=)
+Nullish Coalescing Assignment (??=)
+Promise allSettled():
+Promise.allSettled([prom1,prom2,prom3]).then {}
+Dynamic Import
+
+
+Es-2021 :
+Promise any():
+const first = await Promise.any([prom1,prom2,prom3]);
+String replaceAll()
+Numeric Separators (_)
+
+Es-2022 :
+Array Method at()
+String Method at()
+RegExp /d
+Object.hasOwn()
+error.cause
+await import
+Private methods and fields
+Class field declarations
