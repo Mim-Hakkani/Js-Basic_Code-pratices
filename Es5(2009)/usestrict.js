@@ -113,3 +113,61 @@
     // const objData = { name: 'John', age: 30, city: 'New York' }
     // const JsonData = JSON.stringify(objData);
     // console.log(JsonData); {"name":"John","age":30,"city":"New York"}
+
+// Date.now() returns the number of milliseconds since zero date (January 1. 1970 00:00:00 UTC). Date.now() returns the same as getTime() performed on a Date object
+
+
+// The toISOString() method converts a Date object to a string, using the ISO standard format:
+    // const d = new Date();
+    // console.log(d.toISOString());
+    // d.toISOString();
+
+
+// getter 
+
+    // var person = {
+    //     firstName: "John",
+    //     lastName : "Doe",
+    //     get fullName() {
+    //       return this.firstName + " " + this.lastName;
+    //     }
+    //   };
+
+    // console.log(person.fullName);
+
+
+// getter and setter 
+
+        // var person = {
+        //     firstName: "John",
+        //     lastName : "Doe",
+        //     language : "NO",
+        //     get lang() {
+        //       return this.language;
+        //     },
+        //     set lang(value) {
+        //       this.language = value;
+        //     }
+        //   };
+        
+        //   // Set an object property using a setter:
+        //   person.lang = "en";
+
+// Function Bind() =>  With the bind() method, an object can borrow a method from another object
+ 
+const person = {
+    firstName:"John",
+    lastName: "Doe",
+    fullName: function () {
+      return this.firstName + " " + this.lastName;
+    }
+  }
+  
+  const member = {
+    firstName:"Hege",
+    lastName: "Nilsen",
+  }
+  
+  let fullName = person.fullName.bind(member);
+  console.log(fullName);
+  
