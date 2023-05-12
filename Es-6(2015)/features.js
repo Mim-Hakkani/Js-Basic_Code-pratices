@@ -90,8 +90,8 @@
 //         Learn more in the chapter: JavaScript Loop For/In/Of.
         
 // JavaScript Maps
-//         Being able to use an Object as a key is an important Map feature.
-        
+
+//         Being able to use an Object as a key is an important Map feature.      
 //         Example
 //         const fruits = new Map([
 //         ["apples", 500],
@@ -265,13 +265,14 @@
 //         Example
 //         Create an Array Iterator object, containing the keys of the array:
         
-//         const fruits = ["Banana", "Orange", "Apple", "Mango"];
-//         const keys = fruits.keys();
-        
-//         let text = "";
-//         for (let x of keys) {
-//           text += x + "<br>";
-//         }
+        // const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        // const keys = fruits.keys();
+
+        // let text = "";
+        // for (let x of keys) {
+        // //   text += x + "<br>";
+        // console.log(x);
+        // }
 // Array find()
 //         The find() method returns the value of the first array element that passes a test function.
         
