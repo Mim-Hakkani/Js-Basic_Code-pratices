@@ -25,7 +25,7 @@ class Animal {
        return (`${this.name} hides!`);
       }
 
-      
+
   }
 
 
@@ -33,6 +33,6 @@ class Animal {
 
   const rabbit  = new Rabbit("White Rabbit");
 
-  console.log("Rabbit ::",rabbit.hide());
+  console.log("Rabbit ::",rabbit.hide());  // White Rabbit hides 
 
 
