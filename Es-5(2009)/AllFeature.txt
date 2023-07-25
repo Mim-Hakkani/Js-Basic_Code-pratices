@@ -24,3 +24,4 @@ Object methods
 Object defineProperty()
 Function bind()
 Trailing commas
+
