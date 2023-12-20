@@ -37,3 +37,17 @@ console.log("data::",know);
 
 // data = "dasdasd";
 // console.log("data:",data);
+
+
+// let reassign but const not reassign
+
+const Student ={
+    "name":"mim"
+}
+
+console.log(Student.name);
+Student.name = "Hakkani"
+
+console.log(Student.name);
+
+// remember that :: in array and object property value / index value  is changed cauese it is mutable .. but not assign agian it is not creassign 
